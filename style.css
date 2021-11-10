@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.head{
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    border: 2px solid black;
+    align-items: center;
+    background: black;
+ 
+   
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left li {
+    list-style: none;
+    margin-left: 12px;
+}
+
+.left li a{
+    text-decoration: none;
+    color: white;
+}
+
+.input{
+    margin-left: 12px;
+    /* border-radius: 10px;
+    border: 1px solid black; */
+}
+.right{
+    display: flex;
+    position: absolute;
+    right: 0px;
+}
+
+.right li{
+    list-style: none;
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+.right li a{
+    text-decoration: none;
+    color: white;
+}
+
+.sec {
+    background: url(./images/bgimage.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec h3{
+    color: white;
+}
+
+.sec{
+    position: relative;
+   
+}
+
+
+
+.box{
+    border: 2px solid black;
+    width: 220px;
+    height: 70px;
+}
+
+.boxNext{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+}
+.head-1{
+    padding-top: 15px;
+    padding-left: 60px;
+}
+
+
+.left-1{
+    color: white;
+    display: grid;
+      grid-template-columns: 400px 400px 400px ; 
+     grid-template-rows: 1fr 1fr 1fr 1fr; 
+    border: 2px solid red;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.right-1{
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    border: 2px solid white;
+    width: 300px;
+    height: 290px;
+    text-align: center;
+    margin-top: 90px;
+    margin-right: 29px;
+}
+.right-1 img{
+    filter: invert(100%);
+    width: 40px;
+    height: 40px;
+}
+.btn{
+    position: absolute;
+    right: 10%;
+    bottom: 42%;
+    
+}
+
+#set{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    right: 10%;
+}
+
+.sameclass{
+    position: relative;
+ 
+}
+
+.sameclass img{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 6px;
+}
+.sameclass h3,p{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: black;
+}
+
+
+#box-1{
+    background: linear-gradient(to right, rgb(214, 59, 59), white,rgb(214, 59, 59));
+    
+}
+#box-2{
+    background: linear-gradient(to right, rgb(55, 55, 139), white, rgb(55, 55, 139));
+}
+#box-3{
+    background: linear-gradient(to right, pink, white,rgb(255, 192, 239));
+}
+#box-4{
+    background: linear-gradient(to right, violet, white, violet);
+}
+#box-5{
+    background: linear-gradient(to right, yellow,white,yellow);
+}
+#box-6{
+    background: linear-gradient(to right, gray, green);
+
+}
